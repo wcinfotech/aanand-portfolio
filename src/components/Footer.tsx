@@ -15,7 +15,7 @@ export default function Footer() {
         <Text>
           © {new Date().getFullYear()} Aanand Palan. All rights reserved
         </Text>
-        <Text>Made with ❤️ using React & Chakra UI</Text>
+      
       </Container>
     </Box>
   );
