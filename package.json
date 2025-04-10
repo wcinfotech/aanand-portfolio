@@ -1,7 +1,6 @@
 {
   "name": "portfolio",
   "homepage": "https://wcinfotech.github.io/aanand-portfolio/",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
