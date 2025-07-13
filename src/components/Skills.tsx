@@ -18,8 +18,10 @@ import {
   FaJava,
   FaAndroid,
   FaDatabase,
+  FaGitAlt,
+  FaGithub,
 } from "react-icons/fa";
-import { SiTypescript, SiPhp, SiArduino } from "react-icons/si";
+import { SiPhp, SiMongodb } from "react-icons/si";
 import AnimatedSection from "./AnimatedSection";
 import AnimatedCard from "./AnimatedCard";
 
@@ -67,16 +69,6 @@ export default function Skills() {
       text: "Modern web development with React and its ecosystem",
     },
     {
-      icon: FaJs,
-      title: "JavaScript",
-      text: "ES6+ features and modern JavaScript development",
-    },
-    {
-      icon: SiTypescript,
-      title: "TypeScript",
-      text: "Type-safe JavaScript development",
-    },
-    {
       icon: FaHtml5,
       title: "HTML5",
       text: "Semantic markup and modern HTML features",
@@ -87,19 +79,14 @@ export default function Skills() {
       text: "Modern styling and responsive design",
     },
     {
+      icon: FaJs,
+      title: "JavaScript",
+      text: "ES6+ features and modern JavaScript development",
+    },
+    {
       icon: FaBootstrap,
       title: "Bootstrap",
       text: "Responsive framework for rapid development",
-    },
-    {
-      icon: FaJava,
-      title: "Java",
-      text: "Object-oriented programming and Android development",
-    },
-    {
-      icon: FaAndroid,
-      title: "Android",
-      text: "Native Android app development",
     },
     {
       icon: SiPhp,
@@ -112,9 +99,29 @@ export default function Skills() {
       text: "Database design and management",
     },
     {
-      icon: SiArduino,
-      title: "Arduino",
-      text: "Hardware programming and IoT development",
+      icon: SiMongodb,
+      title: "MongoDB",
+      text: "NoSQL database for modern applications",
+    },
+    {
+      icon: FaJava,
+      title: "Java",
+      text: "Object-oriented programming and Android development",
+    },
+    {
+      icon: FaAndroid,
+      title: "Android SDK",
+      text: "Native Android app development",
+    },
+    {
+      icon: FaGitAlt,
+      title: "Git",
+      text: "Version control and collaboration",
+    },
+    {
+      icon: FaGithub,
+      title: "GitHub",
+      text: "Code hosting and project management",
     },
   ];
 

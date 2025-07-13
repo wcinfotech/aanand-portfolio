@@ -10,7 +10,7 @@ import {
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import { Link } from "react-scroll";
 
-const Links = ["About", "Skills", "Projects", "Education", "Contact"];
+const Links = ["About", "Experience", "Skills", "Projects", "Education", "Certifications", "Contact"];
 
 const NavLink = ({ children }: { children: string }) => (
   <Link

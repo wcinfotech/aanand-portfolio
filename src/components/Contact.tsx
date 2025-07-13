@@ -14,6 +14,7 @@ import {
   FaMapMarkerAlt,
   FaLinkedin,
   FaGithub,
+  FaGlobe,
 } from "react-icons/fa";
 
 interface ContactItemProps {
@@ -58,7 +59,7 @@ export default function Contact() {
           <ContactItem
             icon={FaPhone}
             title="Phone"
-            content="+91 8460395732"
+            content="+91 84603 95732"
             href="tel:+918460395732"
           />
           <ContactItem
@@ -70,19 +71,25 @@ export default function Contact() {
           <ContactItem
             icon={FaMapMarkerAlt}
             title="Location"
-            content="Surat, Gujarat"
+            content="Surat, Gujarat, India"
           />
           <ContactItem
             icon={FaLinkedin}
             title="LinkedIn"
-            content="linkedin.com/in/aanand-palan-8804471b1"
+            content="https://www.linkedin.com/in/aanand-palan-8804471b1/"
             href="https://www.linkedin.com/in/aanand-palan-8804471b1/"
           />
           <ContactItem
             icon={FaGithub}
             title="GitHub"
-            content="github.com/wcinfotech"
+            content="https://github.com/wcinfotech"
             href="https://github.com/wcinfotech"
+          />
+          <ContactItem
+            icon={FaGlobe}
+            title="Portfolio"
+            content="https://wcinfotech.github.io/aanand-portfolio/"
+            href="https://wcinfotech.github.io/aanand-portfolio/"
           />
         </Stack>
       </Container>

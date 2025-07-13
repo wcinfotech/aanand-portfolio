@@ -48,7 +48,7 @@ export default function Hero() {
                 transition={{ duration: 0.5, delay: 0.4 }}
               >
                 <Text as={"span"} color={"brand.500"}>
-                  ReactJS Developer
+                  ReactJS Developer | Frontend Developer
                 </Text>
               </motion.div>
             </Heading>
@@ -56,10 +56,9 @@ export default function Hero() {
 
           <AnimatedSection delay={0.6}>
             <Text color={textColor} fontSize={{ base: "lg", md: "xl" }}>
-              A driven and results-oriented developer with a strong interest in
-              web development. Experienced in React.js, JavaScript, and modern
-              web technologies. Looking to contribute my skills in a
-              collaborative environment.
+              Aspiring React.js Developer with hands-on experience building responsive and accessible web interfaces.
+              Successfully contributed to USICAMM, a national education platform under the Government of Mexico (SEP).
+              Skilled in modern frontend development practices, eager to contribute to innovative teams and grow as a React.js specialist.
             </Text>
           </AnimatedSection>
 
