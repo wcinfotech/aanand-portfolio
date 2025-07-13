@@ -39,19 +39,14 @@ const EducationItem = ({ period, degree, institution }: EducationItemProps) => {
 export default function Education() {
   const educationData = [
     {
-      period: "SEP 2023 - 2026",
-      degree: "B.Tech in Information Technology",
-      institution: "Information Technology",
+      period: "2023 - Present",
+      degree: "Bachelor of Technology (B.Tech) - Information Technology",
+      institution: "Sarvajajnik College of Engineering & Technology, Gujarat",
     },
     {
-      period: "OCT 2020 - MAY 2023",
-      degree: "Diploma in Information Technology",
-      institution: "Information Technology",
-    },
-    {
-      period: "MAY 2019 - MARCH 2020",
-      degree: "10th (G.S.E.B)",
-      institution: "Secondary Education",
+      period: "2020 - 2023",
+      degree: "Diploma - Information Technology",
+      institution: "Government Polytechnic College, Gujarat",
     },
   ];
 

@@ -58,8 +58,11 @@ export default function About() {
           >
             <Heading fontSize={"3xl"}>About Me</Heading>
             <Text color={"gray.600"} fontSize={"xl"}>
-              I'm a passionate ReactJS Developer with a strong foundation in web
-              development
+              Aspiring React.js Developer with hands-on experience building responsive and accessible web interfaces 
+              using React.js, HTML, CSS, and JavaScript. Successfully contributed to the USICAMM platform, a 
+              national education platform under the Government of Mexico (SEP), serving large-scale users across Mexico. 
+              Skilled in modern frontend development practices, eager to contribute to innovative teams 
+              and grow as a React.js specialist.
             </Text>
           </Stack>
         </AnimatedSection>
